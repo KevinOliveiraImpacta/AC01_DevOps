@@ -1,0 +1,74 @@
+Entidade Login --> RA
+Entidade Senha --> matricula
+Entidade Professor --> matérias --> RA
+Entidade Matéria --> Professor --> notas e faltas
+Entidade RA --> mensalidade --> financeiro
+Entiadde Nota --> faltas --> materias --> Nota final
+
+CODIFICAÇÃO:
+Usaremos para o layout: HTML, CSS e JavaSCript;
+Para BackEnd Usaremos Python;
+Sistema Operacional sera o Linux;
+Banco de Dados SQL;
+
+Login o campo devera conter o RA do aluno SE a senha for valida ENTRAR no sistema
+SE NÂO Não realizar o Login;
+
+SE RA estiver cadastrado ira conter e SE o Professor estiver cadastrado RA RECEBE Materia 
+SE NÂO o campo de materia ficara em BRANCO;
+
+SE o aluno entragar a atividade, materia RECEBE nota dentro do sistema;
+
+SE financeiro postar os valores RA recebe boleto, SE NÂO campo financeiro ficara em BRANCO;
+
+SE RA efetuar pagamento acesso permitido, SE NÂO acesso negado;
+
+SE notas RA for acima ou igual há média 6.0 em todas as materia e frequencia for MAIOR ou IGUAL a 75% e SE for aprovado da OPE(aprovado) o aluno pegara o diploma, 
+SE NÂO (SUB), SE apos a (SUB) MENOR 6.0 (REPROVADO) não pegara o diploma.
+
+TESTE:
+Analise(Requisitos):
+Um sistema de gestão escolar deve ter os seguintes requisitos;
+
+um campo de login e senha que sera realizado com a matricula; OK
+uma aba que mostre as matérias; OK
+uma aba com as notas e faltas do aluno; OK
+um campo que mostre a mensalidade do aluno; OK
+uma aba que mostre se o aluno foi aprovado se ele estiver no ultimo semestre/
+podera pegar o seu diploma; OK
+
+
+Desing:
+Entidade Login --> RA OK
+Entidade Senha --> matricula OK
+Entidade Professor --> matérias --> RA OK
+Entidade Matéria --> Professor --> notas e faltas OK
+Entidade RA --> mensalidade --> financeiro OK
+Entiadde Nota --> faltas --> materias --> Nota final OK
+
+
+TESTE caminhos para acessar o portal:
+Passo 1 - RA OK;
+Passo 2 - Senha SE OK Entrar no sistema se não RA invalido ou senha invalida;
+Passo 3 - SE o usuario clicar na ABA materias ira ABRIR a aba com os professores/
+e as materias SE o usuario clicar em financeiro ira ABRIR uma aba com os valores/
+ja pagos e os pendentes de pagamento e links para emissao do boleto e comprovates;
+Passo 4 - Assim que clicar na aba notas e faltas o usuario podera ver SE foi/
+APROVADO ou REPROVADO.
+
+OPERAÇÃO:
+Usaremos para o layout: HTML, CSS e JavaSCript;
+Para BackEnd Usaremos Python;
+Sistema Operacional sera o Linux;
+Banco de Dados SQL;
+
+Primeiro tera duas caixas de texto uma para login outra para senha .
+Com o usuario logado tera tres conteiners :
+1 finaceiro (Todos os dados do financeiro irão ser recebidos do SQL financeiro)
+2 materias (Irão receber todos as informações sobre a materia exemplo :trabalhos/
+atividades extra curriculares
+3 Notas e faltas (Vão emitir todas as Notas e frequencia do Aluno para no final /
+monstrar se o aluno está aprovado ou Reprovado)
+
+ 
+

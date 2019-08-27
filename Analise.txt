@@ -1,0 +1,15 @@
+Nomes:
+KEVIN SILVA OLIVEIRA - RA 1900327
+HENRIQUE LELIS LUZ LEITE - RA 1900991
+VANDERLEI SILVA PEREIRA DE SOUSA - RA 1701082
+
+
+Um sistema de gestão escolar deve ter os seguintes requisitos;
+
+um campo de login e senha que sera realizado com a matricula;
+uma aba que mostre as matérias;
+uma aba com as notas e faltas do aluno;
+um campo que mostre a mensalidade do aluno;
+uma aba que mostre se o aluno foi aprovado se ele estiver no ultimo semestre podera pegar o seu diploma;
+
+
